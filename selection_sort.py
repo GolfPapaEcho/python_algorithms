@@ -28,8 +28,7 @@ def selectionSort(arr, dirString):
             greatest = findGreatest(arr)
             sortedArr.append(arr.pop(greatest))
         else:
-            print("Invalid argument, call selectionSort with array and either 's' for smallest or 'g' for greatest to smallest")
-            break
+            print("Invalid argument, call selectionSort with array and either 's' for smallest first or 'g' for greatest first")            break
         
     return sortedArr
 
